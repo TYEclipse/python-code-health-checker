@@ -1,0 +1,27 @@
+{
+  "file_threshold": 500,
+  "function_threshold": 50,
+  "exclude_dirs": [
+    "__pycache__",
+    ".git",
+    ".venv",
+    "venv",
+    "env",
+    "node_modules",
+    ".pytest_cache",
+    ".tox",
+    "dist",
+    "build",
+    ".mypy_cache",
+    ".coverage",
+    "tests",
+    "examples",
+    "docs"
+  ],
+  "exclude_patterns": [
+    ".*\\.pyc$",
+    ".*__pycache__.*",
+    ".*\\.egg-info.*"
+  ],
+  "description": "默认配置文件示例。根据项目需要调整阈值和排除目录。"
+}
